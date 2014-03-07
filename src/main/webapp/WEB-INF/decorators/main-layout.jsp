@@ -5,10 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset=UTF-8">
 <meta name="viewport" content="width=device-width">
-<title>Insert title here</title>
+<title><sitemesh:write property="title" /></title>
+<sitemesh:write property="head" />
 </head>
 <body>
-	<h1>Hola</h1>
-	Spring
+	<p>
+		Default Decorator
+	</p>
+	<sitemesh:write property="body" />
+	<p>
+		Footer
+	</p>
 </body>
 </html>
